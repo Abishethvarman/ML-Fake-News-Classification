@@ -54,3 +54,24 @@ Ryan held several engineering positions at Fortune 500 companies globally such a
 Ryan is a Stanford Certified Project Manager (SCPM), certified Professional Engineer (P.Eng.) in Ontario, a member of the Society of Automotive Engineers (SAE), and a member of the Institute of Electrical and Electronics Engineers (IEEE). He is also the program Co-Chair at the 2017 IEEE Transportation and Electrification Conference (iTEC’17) in Chicago, IL, USA.
 
 .
+Now we will build a machine learning model to detect fake news. In this hands-on project, we will complete the following tasks:
+
+Understand the problem statement and business case  
+
+Import libraries/datasets and perform preliminary data processing
+
+Perform Exploratory data analysis
+
+Perform data cleaning
+
+Visualize datasets
+
+Prepare the data by performing tokenization and padding
+
+Understand the intuition behind recurrent neural networks
+
+Understand the intuition behind LSTMs
+
+Train an LSTM Model
+
+Assess/evaluate trained model performance
