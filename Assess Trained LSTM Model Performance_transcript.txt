@@ -1,0 +1,112 @@
+Hello, everyone.
+And welcome to Final Task Task number 10.
+And in this task, we will assess the trained model
+performance.
+So let's get started.
+You guys remember, in the previous desk we have been able
+to build and train our L S T M network, and we have been able
+to achieve around 98% accuracy, which is pretty incredible.
+So let's go ahead and assess the modern performance on the
+testing data.
+So now I'm just gonna take my model, apply the predict
+message on it, and instead, off feeding in the training data
+here will get defeated the testing data, which is, as
+I mentioned, data that the model has never seen
+before during training.
+So essentially, we're just gonna run that the model originate
+predictions.
+And because we use a sigmoid activation function
+in the open, the prediction will simply be a problem.
+Very. Okay, so what we need to do that we need to set
+a threshold and I'm gonna set the special.
+Here's to be 0.5, and essentially, if that number is greater
+than the predictions, I mean are greater than 0.5. That means
+we're class one.
+If it's less than 10.5 or class zero, and that's basically it.
+Now we have been able to take a train model feed along bunch
+of news data, and the model is able to tell me if it's really
+or fake based on what it has been trained to to do
+in the past.
+So here I'm gonna create predictions, and then I'm gonna
+create a four loop that go from I in range off lens
+off predictions.
+So I'm gonna go through all the every single sample,
+essentially in my in my predictions.
+And then I'm going to check whether if this value is greater
+than 0.5, then you're gonna again upend to the predictions.
+Just bunch of ones.
+If it's less than 0.5, I'll just gonna append to again
+predictions bunch of zeros.
+And then I will have Essentially, after that, I'm gonna have
+a, um, a vector.
+And that vector will contain bunch of ones and zeros.
+And what I could do is I couldn't I can take that information
+and compare it to my ground troops.
+Okay, so let's go ahead and do this.
+So I'm gonna do here.
+Gonna say from s killer Don't metrics.
+We're gonna import accuracy scored, and then I'm gonna take
+accuracy, score and all.
+What I need is just I need two things I need what
+was happening in reality, What was the ground truth?
+So he don't gonna say why test.
+That was my you know, like the testing data, which is again,
+the absolute truth.
+And I'm gonna compared it to the predictions, which is what
+I have in here, and that should essentially, Ginny, this
+the accuracy and I can go ahead and print the model accuracy.
+And as you can see here, we have been able to achieve
+99% accuracy on the testing data, which is again really
+good, really good afterwards.
+What I could do is I wanted to print out the confusion
+matrix, so I just wanted to visually represent what was
+the model predictions versus what was the actual ground truth.
+So against basically, plug both of them together
+in one in one place, and that here will visually tell me
+Well, if the predictions matches the ground truth, that means
+we have to positives.
+And, well, if the predictions again, we're zero,
+for example, um and the, um the ground truth was zero.
+That means we have two negatives.
+Otherwise, once we have issues, that's where that's what
+you get in here when you have messed up classifications.
+So as you guys know this here we have misclassified
+eight samples.
+We have misclassified, I believe here 51 samples and that's
+it. That's essentially, um, the project.
+I hope you guys enjoy this project.
+Let's go ahead and recap what we have done in this project.
+So first we started with an understanding off the problem
+statement and business case.
+We developed essentially a fake news detective model
+that will take a news.
+And we'll tell me if that news is fake or riel.
+We imported the libraries and data sets in task number
+two and test number three.
+You would perform feature engineering and Task number four.
+We cleaned up the data in Task number five.
+We have been able to let's scroll down.
+Visualize our data sets would have been a lot of data
+visualizations like Word cloud.
+We used plot Lee as well.
+In Task eight, we prepare the data by performing toe
+organization and padding, and then afterwards, in the next
+task, we understood how we couldn't you know, networks work.
+We learned about the limitations off the current your
+networks and we also have been able to learn the intuition
+and theory behind LSD and networks or long short term memory
+networks for short.
+And we learned that we have been able to overcome the
+vanishing reading problems if you keep going down.
+So here we have our task eight.
+And we learned about the various gates and how to control
+essentially the amount of information flowing through the LSD
+M network.
+In test number nine, we built and trained a L S T M network
+model and have been able to achieve really solid results.
+Given that we, you know, we only trained it for only
+two epochs and it has number 10.
+We assessed train model performance.
+I hope you guys enjoy this guided project and found it useful
+and informative.
+And see you guys in future guided projects.
